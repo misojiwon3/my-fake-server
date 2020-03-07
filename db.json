@@ -1,14 +1,51 @@
 {
   "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
   ],
   "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
   ],
   "profile": {
     "name": "typicode"
+  },
+  "place": {
+    {
+      "name": "식당1",
+      "address": "역삼동 123-45",
+      "x": "127.0353440",
+      "y": "37.5028034"
+    },
+    {
+      "name": "식당2",
+      "address": "서울특별시 강남구 역삼동 677-5",
+      "x": "127.0403396",
+      "y": "37.5033384"
+    },
+    {
+      "name": "식당3",
+      "address": "서울특별시 강남구 역삼동 669-18",
+      "x": "127.0375750",
+      "y": "37.5026697"
+    }
   }
 }
